@@ -1,1 +1,22 @@
-Hello, my name  is Denis Ballgjini, and I've chosen to do a website as my final project in the CS50. The website will contain a big construction firm, with the best construction works and house transformations you can find, based in London. The website will contain some of the firm's best jobs and some information about the firm, and even a contact way to get to our firm!
+# Construction Company Website
+
+Responsive construction company website developed as a final CS50 project. The website showcases a London-based construction firm, featuring completed construction projects, home transformations, company information, and contact functionality.
+
+## Features
+
+- Responsive website design
+- Construction project showcase
+- Home transformation gallery
+- Company information section
+- Contact page
+- Modern UI layout
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Purpose
+
+This project was created as a final project for Harvard's CS50 course and focuses on building a modern, responsive business website experience.
