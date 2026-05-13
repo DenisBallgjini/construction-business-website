@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>About Us</title>
+
+<link rel="stylesheet" href="/static/css/style.css">
+
+<style>
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.about-hero {
+
+    height: 70vh;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)
+        ),
+        url("/static/images/img/about1.jpeg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.about-hero-content h1 {
+
+    font-size: 60px;
+
+    margin-bottom: 20px;
+}
+
+.about-hero-content p {
+
+    font-size: 20px;
+
+    color: #ddd;
+
+    max-width: 700px;
+
+    line-height: 1.8;
+}
+
+.about-section {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 100px 40px;
+}
+
+.about-grid {
+
+    display: flex;
+
+    gap: 50px;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.about-text {
+
+    flex: 1;
+}
+
+.about-text h2 {
+
+    font-size: 42px;
+
+    margin-bottom: 25px;
+}
+
+.about-text p {
+
+    color: #ccc;
+
+    line-height: 1.9;
+
+    font-size: 17px;
+
+    margin-bottom: 25px;
+}
+
+.about-image {
+
+    flex: 1;
+}
+
+.about-image img {
+
+    width: 100%;
+
+    height: 600px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+}
+
+.values-section {
+
+    background-color: #1a1a1a;
+
+    padding: 100px 40px;
+}
+
+.values-title {
+
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.values-title h2 {
+
+    font-size: 42px;
+}
+
+.values-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+}
+
+.value-card {
+
+    background-color: #222;
+
+    padding: 40px;
+
+    width: 320px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+
+    transition: 0.3s ease;
+}
+
+.value-card:hover {
+
+    transform: translateY(-10px);
+}
+
+.value-card h3 {
+
+    color: #d6b36a;
+
+    margin-bottom: 20px;
+}
+
+.value-card p {
+
+    color: #ccc;
+
+    line-height: 1.7;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .about-text h2 {
+        font-size: 34px;
+    }
+
+    .about-grid {
+        flex-direction: column;
+    }
+
+    .about-image img {
+        height: 400px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <a href="/">Home</a>
+
+    <a href="/about">About</a>
+
+    <a href="/portfolio">Portfolio</a>
+
+    <a href="/contact">Contact</a>
+
+</div>
+
+<section class="about-hero">
+
+    <div class="about-hero-content">
+
+        <h1>Building Excellence Across London</h1>
+
+        <p>
+            Premium renovation and construction services
+            delivered with precision, craftsmanship,
+            and attention to detail.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="about-section reveal">
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <h2>Who We Are</h2>
+
+            <p>
+                Partners Construction LTD offers high-quality
+                residential and commercial renovation services
+                throughout London.
+            </p>
+
+            <p>
+                Our experienced team specializes in property
+                refurbishments, loft conversions, extensions,
+                plumbing, heating, electrical work, painting,
+                decorating, and complete construction solutions.
+            </p>
+
+            <p>
+                We pride ourselves on delivering reliable,
+                professional, and fully insured services while
+                maintaining exceptional standards on every project.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+
+            <img src="/static/images/img/about2.jpeg">
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="values-section reveal">
+
+    <div class="values-title">
+
+        <h2>Why Clients Choose Us</h2>
+
+    </div>
+
+    <div class="values-container">
+
+        <div class="value-card">
+
+            <h3>Quality Craftsmanship</h3>
+
+            <p>
+                Every project is completed with precision,
+                premium materials, and attention to detail.
+            </p>
+
+        </div>
+
+        <div class="value-card">
+
+            <h3>Reliable Team</h3>
+
+            <p>
+                Our experienced professionals deliver projects
+                efficiently while maintaining clear communication
+                throughout the process.
+            </p>
+
+        </div>
+
+        <div class="value-card">
+
+            <h3>Client Satisfaction</h3>
+
+            <p>
+                We focus on building long-term trust by exceeding
+                expectations and delivering outstanding results.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="/static/js/animations.js"></script>
+
+</body>
+
+</html>

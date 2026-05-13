@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Messages</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/portfolio">Portfolio</a>
+    <a href="/contact">Contact</a>
+</div>
+
+<section class="services">
+
+    <h2>Submitted Messages</h2>
+
+    <div class="service-cards">
+
+        {% for message in messages %}
+
+        <div class="card">
+
+            <h3>
+                {{ message[1] }} {{ message[2] }}
+            </h3>
+
+            <p>
+                <strong>Country:</strong>
+                {{ message[3] }}
+            </p>
+
+            <p>
+             <p>
+        <strong>Submitted:</strong>
+        {{ message[5] }}
+            </p>
+            </p>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+</body>
+</html>
