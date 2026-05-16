@@ -1,22 +1,38 @@
-# Construction Company Website
+# Partners Construction LTD Website
 
-Responsive construction company website developed as a final CS50 project. The website showcases a London-based construction firm, featuring completed construction projects, home transformations, company information, and contact functionality.
+Modern full-stack construction company website built using Flask as an evolution of my original CS50 final project.
+
+This project simulates a real business website for a London-based construction company and includes both frontend and backend functionality.
 
 ## Features
 
-- Responsive website design
-- Construction project showcase
-- Home transformation gallery
-- Company information section
-- Contact page
-- Modern UI layout
+- Modern responsive homepage
+- Construction portfolio showcase
+- Company About page
+- Contact form with backend handling
+- SQLite database integration
+- Admin messages dashboard
+- Scroll animations
+- Responsive design
+- Flask routing and templates
+- Dynamic content rendering
 
 ## Technologies Used
 
+Frontend:
 - HTML
 - CSS
 - JavaScript
 
-## Purpose
+Backend:
+- Python
+- Flask
+- SQLite
 
-This project was created as a final project for Harvard's CS50 course and focuses on building a modern, responsive business website experience.
+Project Structure:
+
+```text
+app.py
+templates/
+static/
+database/
